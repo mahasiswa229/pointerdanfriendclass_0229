@@ -17,5 +17,15 @@ public:
 class segitiga
 {
 
+    int alas, tinggi;
+    int luasSegitiga(int a, int t)
+    {
+        return (a * t) / 2;
+    }
+
+    int hitung(persegiPanjang p)
+    {
+        return p.panjang;
+    }
 };
 
