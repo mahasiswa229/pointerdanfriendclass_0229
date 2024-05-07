@@ -6,5 +6,10 @@ using namespace std;
 class persegiPanjang
 {
 
+    int panjang, lebar;
+    int luasPersegiPanjang(int b, int a)
+    {
+        return a * b;
+    }
 };
 
